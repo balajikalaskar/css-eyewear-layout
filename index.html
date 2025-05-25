@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css-eyewear-layout</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css-eyewear-layout</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
+
 <body>
     <div id="nav1">
         <div id="navpart1">
@@ -18,7 +16,7 @@
         <div class="circle"></div>
         </div>
         <div id="navpart2">
-        <h4>EN <span>RU</span></h4>
+        <h4>EN <span>RU</span><i class="ri-menu-3-line"></i></h4>
         <h4>Country: Russia</h4>
         <h4>Profile</h4>
         <h4>Wishlist [0]</h4>
@@ -35,25 +33,48 @@
             <h4>JOURNAL</h4>
         </div>
         <div id="content">
-            <div id="textcontent">
-                <div id="secondarytext1" class="secondarytext"><h4 style="font-weight: 600;">01</h4><h4>Glasses</h4></div>
-                <div class="elem">
-                    <h1 style="font-weight: 100;" id="johny">Johny Walk</h1>
-                </div>
-                <div id="secondarytext2" class="secondarytext"><h4 style="font-weight: 600;">02</h4><h4>lookbook</h4></div>
-                <div class="elem">
-                    <h1 style="font-weight: 100;" id="trendline">Trendline</h1>
-                </div>
-                <div id="secondarytext3" class="secondarytext"><h4 style="font-weight: 600;">03</h4><h4>Specs</h4></div>
-                <div class="elem">
-                    <h1 style="font-weight: 100;">Blender</h1>
-                </div>
-                    <div id="secondarytext4" class="secondarytext"><h4 style="font-weight: 600;">04</h4><h4>Sunglasses</h4></div>
-                <div class="elem">
-                    <h1 style="font-weight: 100;">Johny Walk</h1>
-                </div>
-            </div>
-        <div id="imagecontainer">
+    <div id="textcontent">
+    <div class="textblock">
+        <div class="secondarytext" id="Glasses">
+        <h4>01</h4>
+        <h4>Glasses</h4>
+        </div>
+        <div class="elem">
+        <h1 id="johny">Johny Walk</h1>
+        </div>
+    </div>
+
+    <div class="textblock">
+        <div class="secondarytext" id="lookbook1" >
+        <h4>02</h4>
+        <h4>lookbook</h4>
+        </div>
+        <div class="elem">
+        <h1 id="trendline" style="padding-left: 80px;">Trendline</h1>
+        </div>
+    </div>
+
+    <div class="textblock">
+        <div class="secondarytext">
+        <h4>03</h4>
+        <h4>Specs</h4>
+        </div>
+        <div class="elem">
+        <h1>Blender</h1>
+        </div>
+    </div>
+
+    <div class="textblock">
+        <div class="secondarytext" id="Sunglasses">
+        <h4>04</h4>
+        <h4>Sunglasses</h4>
+        </div>
+        <div class="elem">
+        <h1>Johny Walk</h1>
+        </div>
+    </div>
+    </div>
+    <div id="imagecontainer">
             <img src="./image.jpg" alt="">
             <img src="./image2.jpg" alt="">
             <img src="./image3.jpg" alt="">
